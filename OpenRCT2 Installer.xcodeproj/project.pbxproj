@@ -11,6 +11,7 @@
 		85B468CA1D9671AF000F1DB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B468C91D9671AF000F1DB5 /* main.m */; };
 		85B468CC1D9671B0000F1DB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85B468CB1D9671B0000F1DB5 /* Assets.xcassets */; };
 		85B468CF1D9671B0000F1DB5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85B468CD1D9671B0000F1DB5 /* MainMenu.xib */; };
+		85B469021D971223000F1DB5 /* innoextract in Resources */ = {isa = PBXBuildFile; fileRef = 85B469011D971223000F1DB5 /* innoextract */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		85B468CB1D9671B0000F1DB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85B468CE1D9671B0000F1DB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		85B468D01D9671B0000F1DB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85B469011D971223000F1DB5 /* innoextract */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = innoextract; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,10 +36,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8516E9821D97CD6F00C7F210 /* Binaries */ = {
+			isa = PBXGroup;
+			children = (
+				85B469011D971223000F1DB5 /* innoextract */,
+			);
+			path = Binaries;
+			sourceTree = "<group>";
+		};
 		85B468B91D9671AF000F1DB5 = {
 			isa = PBXGroup;
 			children = (
 				85B468C41D9671AF000F1DB5 /* OpenRCT2 Installer */,
+				8516E9821D97CD6F00C7F210 /* Binaries */,
 				85B468C31D9671AF000F1DB5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -131,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85B468CC1D9671B0000F1DB5 /* Assets.xcassets in Resources */,
+				85B469021D971223000F1DB5 /* innoextract in Resources */,
 				85B468CF1D9671B0000F1DB5 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +305,7 @@
 				85B468D51D9671B0000F1DB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
